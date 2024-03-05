@@ -2,11 +2,25 @@
     font-size: 16px;
 }
 body{
-    background-color:rgb(120, 255, 165)
+    background-color:rgb(203, 253, 220)
 }
 .center{
     text-align: center;
 }
 .alert-color{
     color: red;
+}
+/* .wavy-decorate{
+
+} */
+.article-heading{
+    color: rgba(210, 105, 30, 0.993);
+    text-align: center;
+    text-transform: capitalize;
+    /* text-decoration: blue; */
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red; 
+    text-decoration-thickness: 1px;
+    
 }
