@@ -8,6 +8,9 @@ a{
 }
 
 .main-article{
+    width: 80%;
+    padding: 10%;
+    margin: auto;
     font-size: 1.5em;
     border: 2px dotted pink;
     text-align: center;
@@ -15,12 +18,36 @@ a{
 }
 
 .main-article-heading{
-    font-size: 1.2em;
+    width: 50%;
+    height: 50px;
+    padding: 0.7em 10%;
+    margin: auto;
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
     border: inherit;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.first-letter{
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 .main-article-content{
+    
+}
 
+.main-article-pic{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px double blue;
+    border-radius: 50%;
+    /* background-color: yellow; */
+    object-fit: cover;
+    object-position: left;
 }
 
 .main-article-content{
@@ -28,6 +55,7 @@ a{
 }
 
 .main-article-blokquote{
+    padding: inherit;
     border: inherit;
     color: initial;
 }
