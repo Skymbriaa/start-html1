@@ -39,6 +39,20 @@ a{
     
 }
 
+div{
+    display: inline;
+    background-color: darkblue;
+}
+
+strong,
+em{
+    padding: 30px;
+    background-color: aquamarine;
+    border: inherit;
+    border-color: blue;
+    border-bottom-width: 5px;
+}
+
 .main-article-pic{
     width: 200px;
     height: 200px;
